@@ -2,7 +2,7 @@
  * Name: Jesse Wojtanowicz
  * Assignment: 5004 Lab 0: Getting Started
  * 1/14/24
- * Notes: Person test
+ * Notes: Expense test
  ******/
 import CS5004.Expense;
 

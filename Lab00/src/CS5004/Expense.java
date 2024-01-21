@@ -14,7 +14,7 @@ public class Expense {
 	private float price;
 	
 	/**
-	 * 
+	 * Construct an Expense object that has a name, category, and expense price.
 	 * @param name the name of the expense
 	 * @param category the category of the expense
 	 * @param price the price of the expense
