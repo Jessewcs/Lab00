@@ -37,7 +37,8 @@ public class BookTest {
 		assertEquals(19.99f, myBook.getPrice(), 0.01f);
 	}
 	
-	@Test public void testAuthor() {
+	@Test 
+	public void testAuthor() {
 		assertEquals(john, myBook.getAuthor());
 	}
 }

@@ -29,7 +29,6 @@ public class Book {
 
   /**
    * Return the title of this book.
-   *
    * @return the title of this book
    */
 
@@ -39,7 +38,6 @@ public class Book {
 
   /**
    * Return the price of this book.
-   *
    * @return the price of this book
    */
   public float getPrice() {
@@ -48,7 +46,6 @@ public class Book {
 
   /**
    * Return the author of this object.
-   *
    * @return the author of this object as a @link{Person}
    */
   public Person getAuthor() {
