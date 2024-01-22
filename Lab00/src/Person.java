@@ -4,11 +4,13 @@
  * 1/14/24
  * Notes: Person class
  ******/
-package CS5004;
+
 /**
  * This class represents a person The person has a first name, last name and an year of birth.
  */
 public class Person {
+	
+  // Initiate variables
   private String firstName;
   private String lastName;
   private int yearOfBirth;
@@ -22,6 +24,7 @@ public class Person {
    * @param yearOfBirth the year of birth of this person
    */
 
+  // All argument Person Constructor
   public Person(String firstName, String lastName, int yearOfBirth) {
     this.firstName = firstName;
     this.lastName = lastName;

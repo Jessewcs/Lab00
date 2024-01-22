@@ -4,9 +4,6 @@
  * 1/14/24
  * Notes: Book test
  ******/
-import CS5004.Book;
-import CS5004.Person;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,6 +21,7 @@ public class BookTest {
 	@Before
 	public void setUp() {
 		
+		// Initiate myBook Object
 		myBook = new Book("Dracula", john, 19.99f);
 	}
 	

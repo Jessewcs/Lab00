@@ -4,8 +4,6 @@
  * 1/14/24
  * Notes: Expense test
  ******/
-import CS5004.Expense;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,6 +20,7 @@ public class ExpenseTest {
 	@Before
 	public void setUp() {
 		
+		// Initiate newExpense object
 		newExpense = new Expense("shirt", "clothing", 25.99f);
 	}
 	

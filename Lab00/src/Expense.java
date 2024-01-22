@@ -4,11 +4,13 @@
  * 1/14/24
  * Notes: Expense class
  ******/
-package CS5004;
+
 /**
  * This class represents an expense. The expense has a name, category, and expense price.
  */
 public class Expense {
+	
+	// Initiate variables
 	private String name;
 	private String category;
 	private float price;
@@ -20,6 +22,7 @@ public class Expense {
 	 * @param price the price of the expense
 	 */
 	
+	// All argument Expense Constructor
 	public Expense(String name, String category, float price) {
 		this.name = name;
 		this.category = category;

@@ -4,8 +4,6 @@
  * 1/14/24
  * Notes: Person test
  ******/
-import CS5004.Person;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,7 +19,8 @@ public class PersonTest {
 
   @Before
   public void setUp() {
-
+	  
+	// Initiate Person object
     john = new Person("john", "doe", 1989);
   }
 

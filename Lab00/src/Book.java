@@ -4,11 +4,13 @@
  * 1/14/24
  * Notes: Book class
  ******/
-package CS5004;
+
 /**
  * This class represents a book. A book has a title, an author and a price.
  */
 public class Book {
+	
+  // Initiate variables
   private String title;
   private Person author;
   private float price;
@@ -21,6 +23,7 @@ public class Book {
    * @param price  the price to be assigned to this book
    */
 
+  // All argument Constructor
   public Book(String title, Person author, float price) {
     this.title = title;
     this.author = author;
