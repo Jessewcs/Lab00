@@ -25,6 +25,7 @@ public class BookTest {
 		myBook = new Book("Dracula", john, 19.99f);
 	}
 	
+	// Test getters
 	@Test
 	public void testTitle() {
 		assertEquals("Dracula", myBook.getTitle());

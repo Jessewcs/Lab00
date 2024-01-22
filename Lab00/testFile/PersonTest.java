@@ -24,6 +24,7 @@ public class PersonTest {
     john = new Person("john", "doe", 1989);
   }
 
+  // Test getters
   @Test
   public void testFirst() {
     assertEquals("john", john.getFirstName());

@@ -24,6 +24,7 @@ public class ExpenseTest {
 		newExpense = new Expense("shirt", "clothing", 25.99f);
 	}
 	
+	// Test getters
 	@Test
 	public void testName() {
 		assertEquals("shirt", newExpense.getName());
